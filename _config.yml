@@ -41,6 +41,9 @@ collections:
   posts:
     output: true
     permalink: /:slug
+  categories:
+    output: true
+    permalink: /kategori/:slug  
   
 defaults:
   -
