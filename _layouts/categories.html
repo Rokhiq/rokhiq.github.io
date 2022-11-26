@@ -6,10 +6,10 @@ comments: true
 <section class="post">
   <h2>{{ page.title }}</h2>
   <p><img src={{ page.coverPhoto }}></p>
+  
+  <p>Unduh</p>
+  <hr>
   {{ content }}
-  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
-    <a href="/kategori/{{ page.tags }}">{{ page.tags }}</a></span>
-
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

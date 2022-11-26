@@ -12,7 +12,7 @@ title: Search
 		font-size: normal;
 	    outline: none;
 	    padding: 1rem;
-		background: rgb(236, 237, 238);
+		background: #202020;
 	    width: 100%;
 		-webkit-appearance: none;
 		font-family: inherit;
