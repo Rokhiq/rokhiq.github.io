@@ -211,3 +211,23 @@ figcaption {
 @media (min-width: 1200px) and (max-width: 1919px){.full{margin-left:-120px;width:calc(100% + 240px);width:-o-calc(100% + 240px);width:-ms-calc(100% + 240px);width:-moz-calc(100% + 240px);width:-webkit-calc(100% + 240px)}}
 
 @media (min-width: 1920px){.full{margin-left:-140px;width:calc(100% + 280px);width:-o-calc(100% + 280px);width:-ms-calc(100% + 280px);width:-moz-calc(100% + 280px);width:-webkit-calc(100% + 280px)}}
+
+@media (max-width: 767px){.mt{margin-top:20px !important}}
+
+@media (min-width: 768px) and (max-width: 991px){.mt{margin-top:30px !important}}
+
+@media (min-width: 992px) and (max-width: 1199px){.mt{margin-top:30px !important}}
+
+@media (min-width: 1200px) and (max-width: 1919px){.mt{margin-top:40px !important}}
+
+@media (min-width: 1920px){.mt{margin-top:50px !important}}
+
+@media (max-width: 767px){.mb{margin-bottom:20px !important}}
+
+@media (min-width: 768px) and (max-width: 991px){.mb{margin-bottom:30px !important}}
+
+@media (min-width: 992px) and (max-width: 1199px){.mb{margin-bottom:30px !important}}
+
+@media (min-width: 1200px) and (max-width: 1919px){.mb{margin-bottom:40px !important}}
+
+@media (min-width: 1920px){.mb{margin-bottom:50px !important}}header>section,main>section,footer>section{margin:auto}
