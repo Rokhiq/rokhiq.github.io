@@ -24,7 +24,7 @@
   <meta property="og:type" content="website">
   <meta property="og:theme-color" content="#f474b4">
   <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
-  <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
+  <link rel="icon" href="{{ site.baseurl }}/favicon.png">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
   <meta property="og:locale" content="{{ site.locale }}">
   <meta property="og:site_name" content="{{ site.name }}">
@@ -35,16 +35,16 @@
   <meta name="twitter:theme-color" content="#f474b4">
   <meta name="twitter:site" content="{{ site.name }}">
   <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
-  <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
-  <meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/img/favicon.ico">
+  <link rel="icon" href="{{ site.baseurl }}/favicon.png">
+  <meta name="msapplication-TileImage" content="{{ site.baseurl }}/favicon.png">
   <meta name="twitter:creator" content="{{ site.author }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:description" content="{{ page.epsname }}">
 
   <!-- If article has a cover photo -->
-  <meta itemprop="image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/assets/img/banner.jpg{% endif %}">
-  <meta property="og:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/assets/img/banner.jpg{% endif %}">
-  <meta name="twitter:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/assets/img/banner.jpg{% endif %}">
+  <meta itemprop="image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
+  <meta property="og:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
+  <meta name="twitter:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
 
   <!-- iOS web app -->
   <meta name="format-detection" content="telephone=yes">
