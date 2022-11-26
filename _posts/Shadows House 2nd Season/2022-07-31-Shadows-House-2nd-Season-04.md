@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shadows House 2nd Season (WEB) - 04
 eps: 4
 date: 2022-07-31 13:45:00+0700

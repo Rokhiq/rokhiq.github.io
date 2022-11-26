@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shijou Saikyou no Daimaou, Murabito A ni Tensei suru (WEB) - 01
 eps: 1
 date: 2022-04-09 14:09:00 +0700

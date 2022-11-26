@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Tonikaku Kawaii (BD) - Paketan
 eps: Paketan
 date: 2022-02-11 00:32:00 +0700

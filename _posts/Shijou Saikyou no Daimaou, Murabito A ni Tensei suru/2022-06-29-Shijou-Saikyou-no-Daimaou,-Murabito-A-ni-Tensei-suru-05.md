@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shijou Saikyou no Daimaou, Murabito A ni Tensei suru (WEB) - 05
 eps: 5
 date: 2022-06-29 05:56:00 +0700

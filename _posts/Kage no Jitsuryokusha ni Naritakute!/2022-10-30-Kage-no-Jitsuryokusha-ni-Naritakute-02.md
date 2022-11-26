@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kage no Jitsuryokusha ni Naritakute! (WEB) - 02
 eps: 2
 date: 2022-10-30 14:41:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Engage Kiss (BD) - 05
 eps: 5
 date: 2022-10-29 20:58:00+0700

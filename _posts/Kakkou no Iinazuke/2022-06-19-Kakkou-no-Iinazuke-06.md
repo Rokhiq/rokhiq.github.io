@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (WEB) - 06
 eps: 6
 date: 2022-06-26 19:41:00+0700

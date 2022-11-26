@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (WEB) - 04
 eps: 4
 date: 2022-06-07 17:42:00+0700

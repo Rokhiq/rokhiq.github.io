@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Engage Kiss (BD) - 01
 eps: 1
 date: 2022-09-30 23:51:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (WEB) - 01
 eps: 1
 date: 2022-04-26 19:36:00+0700

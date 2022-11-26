@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shinmai Renkinjutsushi no Tenpo Keiei (WEB) - 02
 eps: 2
 date: 2022-10-30 21:17:00+0700

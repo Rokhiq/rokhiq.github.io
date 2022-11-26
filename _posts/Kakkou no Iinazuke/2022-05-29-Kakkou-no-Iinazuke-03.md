@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (WEB) - 03
 eps: 3
 date: 2022-05-29 05:32:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (BD) - 02
 eps: 2
 date: 2022-09-04 20:02:00+0700

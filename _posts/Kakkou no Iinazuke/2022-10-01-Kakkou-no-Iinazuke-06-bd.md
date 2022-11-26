@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (BD) - 06
 eps: 6
 date: 2022-10-01 02:55:00+0700

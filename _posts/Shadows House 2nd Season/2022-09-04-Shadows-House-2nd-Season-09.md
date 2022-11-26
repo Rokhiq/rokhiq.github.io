@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shadows House 2nd Season (WEB) - 09
 eps: 9
 date: 2022-09-04 22:45:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (BD) - 03
 eps: 3
 date: 2022-09-07 21:02:00+0700

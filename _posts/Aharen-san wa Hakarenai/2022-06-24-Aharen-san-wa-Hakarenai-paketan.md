@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Aharen-san wa Hakarenai (WEB) - Paketan
 eps: Paketan
 date: 2022-06-24 03:11:00 +0700

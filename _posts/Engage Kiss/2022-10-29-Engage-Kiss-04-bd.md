@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Engage Kiss (BD) - 04
 eps: 4
 date: 2022-10-29 18:33:00+0700

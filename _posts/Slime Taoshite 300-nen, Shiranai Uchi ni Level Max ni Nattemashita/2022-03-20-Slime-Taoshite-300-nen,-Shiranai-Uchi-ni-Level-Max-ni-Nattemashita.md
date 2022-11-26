@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita (BD) - Paketan
 eps: Paketan
 date: 2022-03-20 03:29:00 +0700

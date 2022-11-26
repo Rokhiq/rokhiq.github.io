@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shinmai Renkinjutsushi no Tenpo Keiei (WEB) - 03
 eps: 3
 date: 2022-11-24 21:33:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Tensai Ouji no Akaji Kokka Saisei Jutsu (WEB) - Paketan
 eps: Paketan
 date: 2022-04-03 01:22:00 +0700

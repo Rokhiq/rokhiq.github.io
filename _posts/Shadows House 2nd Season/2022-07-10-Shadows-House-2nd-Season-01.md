@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shadows House 2nd Season (WEB) - 01
 eps: 1
 date: 2022-07-10 15:58:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Futoku no Guild (TV) - 01
 eps: 1
 date: 2022-10-26 23:45:00+0700

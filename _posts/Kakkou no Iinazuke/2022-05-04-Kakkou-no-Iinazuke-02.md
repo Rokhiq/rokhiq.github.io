@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (WEB) - 02
 eps: 2
 date: 2022-05-04 22:12:00+0700

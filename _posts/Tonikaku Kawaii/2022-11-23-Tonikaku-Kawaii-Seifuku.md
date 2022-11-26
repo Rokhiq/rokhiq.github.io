@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Tonikaku Kawaii꞉ Seifuku (WEB)
 epsname: Seragam
 eps: OVA2

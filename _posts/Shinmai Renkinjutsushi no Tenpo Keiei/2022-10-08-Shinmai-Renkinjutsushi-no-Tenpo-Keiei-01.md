@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shinmai Renkinjutsushi no Tenpo Keiei (WEB) - 01
 eps: 1
 date: 2022-10-08 21:13:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (BD) - 05
 eps: 5
 date: 2022-09-18 19:04:00+0700

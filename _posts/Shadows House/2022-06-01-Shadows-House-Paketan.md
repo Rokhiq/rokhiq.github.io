@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shadows House (BD) - Paketan
 eps: Paketan
 date: 2022-06-01 19:19:00+0700

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Majo no Tabitabi (BD) - Paketan
 eps: Paketan
 date: 2021-12-21 05:40:00 +0700

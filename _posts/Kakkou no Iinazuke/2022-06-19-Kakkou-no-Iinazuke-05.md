@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Kakkou no Iinazuke (WEB) - 05
 eps: 5
 date: 2022-06-19 14:08:00+0700

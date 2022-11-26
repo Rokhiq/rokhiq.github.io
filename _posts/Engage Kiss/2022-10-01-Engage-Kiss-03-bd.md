@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Engage Kiss (BD) - 03
 eps: 3
 date: 2022-10-01 02:54:00+0700

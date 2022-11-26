@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Futoku no Guild (TV) - 02
 eps: 2
 date: 2022-10-27 00:08:00+0700

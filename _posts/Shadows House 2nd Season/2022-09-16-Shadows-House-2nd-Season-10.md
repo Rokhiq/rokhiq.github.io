@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shadows House 2nd Season (WEB) - 10
 eps: 10
 date: 2022-09-16 22:45:00+0700

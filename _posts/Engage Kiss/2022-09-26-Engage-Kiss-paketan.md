@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Engage Kiss (WEB) - Paketan
 eps: Paketan
 date: 2022-09-26 21:38:00+0700

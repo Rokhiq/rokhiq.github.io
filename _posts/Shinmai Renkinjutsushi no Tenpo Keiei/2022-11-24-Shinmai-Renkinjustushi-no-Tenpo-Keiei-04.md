@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shinmai Renkinjutsushi no Tenpo Keiei (WEB) - 04
 eps: 4
 date: 2022-11-24 21:34:00+0700

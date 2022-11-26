@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Shadows House 2nd Season (WEB) - Paketan
 eps: Paketan
 date: 2022-09-25 23:44:00+0700
