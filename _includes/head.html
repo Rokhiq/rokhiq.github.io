@@ -18,13 +18,10 @@
       {% endif %}
       {{ site.title | escape }}
       {% unless page.tag or page.title %}
-        - {{ page.epsname | escape }}
+        - {{ site.description | escape }}
       {% endunless %}
     </title>
   
-  <meta itemprop="image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
-  <meta property="og:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
-  <meta name="twitter:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
   <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
