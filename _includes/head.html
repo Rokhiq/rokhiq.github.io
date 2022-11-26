@@ -2,60 +2,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO -->
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.epsname }}">
+  {% seo title=false %}
 
-  <!-- Meta for robots -->
-  <meta charset="UTF-8">
-  <meta name="theme-color" content="#f474b4">
-  <meta name="revisit-after" content="1 days">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="{{ site.author }}">
-  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-  <!-- Google+ -->
-  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
-  <meta itemprop="description" content="{{ page.epsname }}">
-
-  <!-- Open Graph(Facebook, Pinterest) -->
-  <meta property="og:type" content="website">
-  <meta property="og:theme-color" content="#f474b4">
-  <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
-  <link rel="icon" href="{{ site.baseurl }}/favicon.png">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
-  <meta property="og:locale" content="{{ site.locale }}">
-  <meta property="og:site_name" content="{{ site.name }}">
-  <meta property="og:description" content="{{ page.epsname }}">
-
-  <!-- Twitter -->
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
-  <meta name="twitter:theme-color" content="#f474b4">
-  <meta name="twitter:site" content="{{ site.name }}">
-  <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
-  <link rel="icon" href="{{ site.baseurl }}/favicon.png">
-  <meta name="msapplication-TileImage" content="{{ site.baseurl }}/favicon.png">
-  <meta name="twitter:creator" content="{{ site.author }}">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:description" content="{{ page.epsname }}">
-
-  <!-- If article has a cover photo -->
+  <title>
+      {% if page.tag or page.title %}
+        {% if page.tag %}
+          {{ page.tag | escape }}
+        {% else %}
+          {{ page.title | escape }}
+        {% endif %}
+        -
+      {% endif %}
+      {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
+        Page {{ paginator.page }} of {{ paginator.total_pages }} -
+      {% endif %}
+      {{ site.title | escape }}
+      {% unless page.tag or page.title %}
+        - {{ page.epsname | escape }}
+      {% endunless %}
+    </title>
+  
   <meta itemprop="image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
   <meta property="og:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
   <meta name="twitter:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/banner.jpg{% endif %}">
-
-  <!-- iOS web app -->
-  <meta name="format-detection" content="telephone=yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-  <!-- Search engine verifications -->
-  {% if site.bing != "" %}<meta name="msvalidate.01" content="{{ site.bing }}">{% endif %}
-  {% if site.yandex != "" %}<meta name="yandex-verification" content="{{ site.yandex }}">{% endif %}
-  {% if site.google != "" %}<meta name="google-site-verification" content="{{ site.google }}">{% endif %}
-
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
   <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
