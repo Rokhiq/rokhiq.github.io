@@ -201,3 +201,11 @@ section {
 figcaption {
     font-size: smaller;
 }
+
+.full {
+	flex-basis:0;
+	flex-grow:999;
+	min-width:70%;
+	display:flex;
+	flex-direction:column;
+}
