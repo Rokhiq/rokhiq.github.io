@@ -11,7 +11,7 @@
   <meta property="og:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/assets/img/banner.jpg{% endif %}">
   <meta name="twitter:image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/assets/img/banner.jpg{% endif %}">
   
-  <meta itemprop="name" content="{% if page.title %}{{ site.title }}: {{ page.title }}{% elsif site.name %}{{ site.title }}: {{ site.description }}{% endif %}">
+  <meta itemprop="name" content="{% if page.title %}{{ site.title }}: {{ page.title }}{% elsif site.title %}{{ site.title }}: {{ site.description }}{% endif %}">
   <meta itemprop="description" content="{{ page.epsname }}">
 
   <meta property="og:type" content="website">
@@ -21,13 +21,12 @@
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{{ page.epsname }}">
 
-  <meta name="twitter:title" content="{% if page.title %}{{ site.title }}: {{ page.title }}{% elsif site.name %}{{ site.title }}: {{ site.description }}{% endif %}">
+  <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:theme-color" content="#f474b4">
   <meta name="twitter:site" content="{{ site.title }}">
   <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
   <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
   <meta name="msapplication-TileImage" content="{{ site.baseurl }}/favicon.ico">
-  <meta name="twitter:creator" content="{{ site.author }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:description" content="{{ page.epsname }}">
 
