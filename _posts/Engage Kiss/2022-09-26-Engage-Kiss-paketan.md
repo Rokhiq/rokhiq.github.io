@@ -17,9 +17,9 @@ Ayano, mantan pacar Shuu sekaligus senior rekan kerja di perusahaan sebelumnya, 
 Dan dimulailah kisah kekonyolan komedi-romantis dan hubungan tak biasa di antara mereka bertiga yang terjadi di pulau buatan yang terletak di Samudra Pasifik ini.
 
 
-Alih Bahasa, Tata Rias, Lirik: Rokhiq
+Alih Bahasa, Tata Rias, Lirik: Noromi
 <br>
-Pengolah Video: Azkaxfannx, Rokhiq
+Pengolah Video: Azkaxfannx, Noromi
 <br>
 Penyelaras Akhir: KiryuuNii
 

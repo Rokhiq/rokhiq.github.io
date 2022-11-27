@@ -14,9 +14,9 @@ Namun, yang sebenarnya, dia hanya ingin meninggalkan semuanya dan hidup santai.
 
 Alih Bahasa, Tata Rias: KiryuuNii
 <br>
-Penyelaras Waktu: KiryuuNii, Rokhiq
+Penyelaras Waktu: KiryuuNii, Noromi
 <br>
-Pengolah Video, Penyelaras Akhir: Rokhiq
+Pengolah Video, Penyelaras Akhir: Noromi
 
 {% if page.epsname %}Episode {{ page.eps }}: {{ page.epsname }}{% elsif page.tags %}{{ page.tags }} & Eceran{% else %}Unduh{% endif %}
 

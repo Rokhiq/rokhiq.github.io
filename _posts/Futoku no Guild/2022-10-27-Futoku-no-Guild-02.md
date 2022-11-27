@@ -10,7 +10,7 @@ epsname: Kejadian Tak Terduga — Pemburu yang Sekarat
 
 Kikuru Madan, pemburu yang ingin keluar dari serikat karena hidupnya terasa hampa menjalani rutinitas yang begitu-begitu saja dan ingin menjalani kehidupan santai di kampus, namun itu semua terpaksa dibatalkan sebab dia harus melatih para pemula yang dapat menggantikannya dirinya
 
-Alih Bahasa, Tata Rias, Pengolah Video: Rokhiq<br>
+Alih Bahasa, Tata Rias, Pengolah Video: Noromi<br>
 Sisanya: KiryuuNii
 
 

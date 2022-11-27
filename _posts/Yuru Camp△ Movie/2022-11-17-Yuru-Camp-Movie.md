@@ -8,7 +8,7 @@ category: Yuru-Camp-Movie
 
 Berniat meramaikan kembali tempat wisata yang ditinggalkan, Rin dan kawan-kawan berencana membangun perkemahan di tempat tersebut, namun ... selebihnya silakan nonton sendiri ketimbang kena spoiler nih sinopsis.
 
-Soloyolo: Rokhiq
+Soloyolo: Noromi
 
 Unduh
 

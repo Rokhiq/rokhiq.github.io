@@ -14,7 +14,7 @@ Bareng [Doll Fansub](https://www.perpusindo.info/user/Leqek){:target="_blank"}
 <br>
 Alih Bahasa, Pengolah Video, Penyelaras Akhir: Leqek
 <br>
-Tata Rias: Rokhiq
+Tata Rias: Noromi
 <br>
 Penyelaras Waktu: KiryuuNii
 

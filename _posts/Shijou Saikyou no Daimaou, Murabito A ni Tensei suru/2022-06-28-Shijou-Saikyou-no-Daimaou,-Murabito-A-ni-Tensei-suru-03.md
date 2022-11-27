@@ -13,9 +13,9 @@ Sebagai perwujudan kekuasaan sepanjang masa, Raja Iblis Varvatos menganggap hidu
 
 Alih Bahasa, Tata Rias: KiryuuNii
 <br>
-Penyelaras Waktu: KiryuuNii, Rokhiq
+Penyelaras Waktu: KiryuuNii, Noromi
 <br>
-Pengolah Video, Penyelaras Akhir: Rokhiq
+Pengolah Video, Penyelaras Akhir: Noromi
 
 {% if page.epsname %}Episode {{ page.eps }}: {{ page.epsname }}{% elsif page.tags %}{{ page.tags }} & Eceran{% else %}Unduh{% endif %}
 

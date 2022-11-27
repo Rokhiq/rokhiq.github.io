@@ -12,7 +12,7 @@ Setelah menempuh waktu selama lima tahun, impian Sarasa menjadi seorang alkemis 
 Selebihnya bisa tonton sendiri
 
 Bareng [Doll Fansub](https://www.perpusindo.info/user/Leqek){:target="_blank"}<br>
-Alih Bahasa, Tata Rias: Rokhiq<br>
+Alih Bahasa, Tata Rias: Noromi<br>
 Pengecek Terjemahan, Pengolah Video: Leqek<br>
 Penyelaras Akhir: KiryuuNii
 
