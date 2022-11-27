@@ -19,10 +19,10 @@ coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1028749976
       {% for post in site.categories['takt-op.Destiny-bd'] %}
     <li><a href="{{ site.baseurl }}{{ post.url }}">{% if post.epsname %}Episode {{ post.eps }}: {{ post.epsname }}{% else %}Episode {{ post.eps }}: {{ page.title }}{% endif %}</a></li>
     {% endfor %}
-    
+    </ul><br><br>
+
     {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-  
-    </ul>
+ 
     </section>
