@@ -2,7 +2,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>{% if page.title %}{{ site.name }}: {{ page.title }}{% elsif site.name %}{{ site.name }}: {{ site.description }}{% endif %}</title>
+  <title>{% if page.title %}{{ site.title }}: {{ page.title }}{% elsif site.name %}{{ site.title }}: {{ site.description }}{% endif %}</title>
 
     <!-- If article has a cover photo -->
   <meta itemprop="image" content="{% if page.coverPhoto %}{{ page.coverPhoto }}{% elsif site.baseurl %}{{ site.baseurl }}/assets/img/banner.jpg{% endif %}">
