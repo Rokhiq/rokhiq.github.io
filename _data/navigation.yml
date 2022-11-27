@@ -3,10 +3,12 @@ links:
   url: /
 - title: Arsip Takarir
   url: https://github.com/A-1Fansub/A-1Subtitles
-- title: Daftar Anime (BD)
+- title: Anime (BD)
   url: /daftar-anime-bd
-- title: Daftar Anime (TV/WEB)
+- title: Anime (TV/WEB)
   url: /daftar-anime-web
+- title: Cari
+- url: /Search
 - title: Discord
   url: https://discord.gg/8QeuePwYgV
 - title: Facebook
