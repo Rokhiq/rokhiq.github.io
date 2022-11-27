@@ -20,7 +20,7 @@ coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1028749976
 
     <ul>
       {% for post in site.categories['Kakkou-no-Iinazuke-bd'] %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{% if post.epsname %}Episode {{ post.eps }}: {{ post.epsname }}{% else %}Episode {{ post.eps }}: {{ page.title }}{% endif %}</a></li>
     {% endfor %}
     </ul>
     </section>
