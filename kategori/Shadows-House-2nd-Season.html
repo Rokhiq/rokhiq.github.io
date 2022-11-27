@@ -1,0 +1,24 @@
+---
+layout: default
+title: Shadows House 2nd Season
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1023090125556678706/unknown.png
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Musim kedua dari serial <a href="https://a-1.fansub.id/Shadows-House-Paketan">Shadows House</a>.</p>
+
+  <p>Pengolah Video: Azkaxfannx<br>
+  Sisanya: Rokhiq</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Shadows-House-2nd-Season'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>

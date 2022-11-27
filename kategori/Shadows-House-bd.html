@@ -1,0 +1,23 @@
+---
+layout: default
+title: Shadows House (BD)
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1003664979641237574/mpv-shot0109.jpg
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Mansion yang berada di atas bukit yang dikenal dengan nama Rumah Bayangan, rumah dari bayangan yang hidup layaknya bangsawan. Mereka mengeksperesikan emosinya dengan Boneka Hidup yang sekaligus menjadi pelayan.</p>
+
+  <p>Soloyolo: Rokhiq</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Shadows-House-bd'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>

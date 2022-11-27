@@ -1,0 +1,25 @@
+---
+layout: default
+title: Tensai Ouji no Akaji Kokka Saisei Jutsu 
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1003664980043898930/mpv-shot0108.jpg
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Pada suatu hari di suatu negeri nan jauh tinggallah seorang pangeran, seorang pangeran yang jenius. Pangeran jenius berjuang bersama rakyatnya memimpin mereka mencapai banyak kemenangan. Namun, yang sebenarnya, dia hanya ingin meninggalkan semuanya dan hidup santai.</p>
+
+  <p>Alih Bahasa, Tata Rias: KiryuuNii<br>
+  Penyelaras Waktu: KiryuuNii, Rokhiq<br>
+  Pengolah Video, Penyelaras Akhir: Rokhiq</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Tensai-Ouji-no-Akaji-Kokka-Saisei-Jutsu'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>

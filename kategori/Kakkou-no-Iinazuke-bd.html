@@ -1,0 +1,26 @@
+---
+layout: default
+title: Kakkou no Iinazuke (BD)
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1028749976408440842/mpv-shot0152.jpg
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Kisah seorang muda-mudi yang semasa bayi tertukar gegara salah naro kasur.</p>
+  
+  <p> Bareng <a href="https://www.perpusindo.info/user/Leqek">Doll Fansub</a><br>
+    Alih Bahasa, Pengolah Video, Penyelaras Akhir: Leqek<br>
+    Tata Rias: Rokhiq<br>
+    Penyelaras Waktu: KiryuuNii</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Kakkou-no-Iinazuke-bd'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>

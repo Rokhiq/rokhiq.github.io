@@ -1,0 +1,23 @@
+---
+layout: default
+title: Majo no Tabitabi (BD)
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1003664978689130557/mpv-shot0075.jpg
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Terinspirasi dari buku favorit yang sering ia baca, Elaina berusaha melihat semua isi dunia. Seperti sebuah daun yang tertiup angin, dia mengembara dari satu negeri ke negeri lain, karena ingin memuaskan rasa ingin tahunya dan mencari pengalaman yang baru. Dia dihadapkan dengan berbagai macam sifat manusia, entah aneh, atau emosional. Karena eksplorasi rasa ingin tahunya mendorongnya untuk terus mengembara, Kemana lagi Elaina akan pergi?</p>
+  
+  <p>Soloyolo: Rokhiq</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Majo-no-Tabitabi-bd'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>

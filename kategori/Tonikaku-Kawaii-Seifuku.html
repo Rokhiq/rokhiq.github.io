@@ -1,0 +1,23 @@
+---
+layout: default
+title: Tonikaku Kawaii꞉ Seifuku (WEB)
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1044993731960512562/mpv-shot0168.jpg
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Episode OVA dari <a href="https://a-1.fansub.id/Tonikaku-Kawaii">Tonikaku Kawaii</a></p>
+
+  <p>Soloyo: Rokhiq</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Tonikaku-Kawaii-Seifuku'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>

@@ -1,0 +1,24 @@
+---
+layout: default
+title: Kage no Jitsuryokusha ni Naritakute!
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1034804043685568532/mpv-shot0160.jpg
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Ketabrak truk, ke isekai punya kekuatan, jadi pemimpin organisasi belakang layar …. Intinya kebelet jadi Penguasa Bayangan.</p>
+  
+  <p>Alih Bahasa, Tata Rias, Pengolah Video: KiryuuNii<br>
+    Sisanya: Rokhiq</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Kage-no-Jitsuryokusha-ni-Naritakute'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>

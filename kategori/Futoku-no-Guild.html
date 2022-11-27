@@ -1,0 +1,24 @@
+---
+layout: default
+title: Futoku no Guild
+coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1036998735449817198/mpv-shot0164.jpg
+---
+
+<section class="posts">
+  <h2>{{ page.title }}</h2>
+  <p><img src={{ page.coverPhoto }}></p>
+
+  <p>Kikuru Madan, pemburu yang ingin keluar dari serikat karena hidupnya terasa hampa menjalani rutinitas yang begitu-begitu saja dan ingin menjalani kehidupan santai di kampus, namun itu semua terpaksa dibatalkan sebab dia harus melatih para pemula yang dapat menggantikannya dirinya.</p>
+  
+  <p>Alih Bahasa, Tata Rias, Pengolah Video: Rokhiq<br>
+    Sisanya: KiryuuNii</p>
+
+  <p>Unduh</p>
+  <hr>
+
+    <ul>
+      {% for post in site.categories['Futoku-no-Guild'] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    {% endfor %}
+    </ul>
+    </section>
