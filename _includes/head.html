@@ -21,7 +21,7 @@
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{{ page.epsname }}">
 
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ site.title }}: {{ page.title }}{% elsif site.name %}{{ site.title }}: {{ site.description }}{% endif %}">
   <meta name="twitter:theme-color" content="#f474b4">
   <meta name="twitter:site" content="{{ site.title }}">
   <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
