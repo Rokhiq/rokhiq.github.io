@@ -10,11 +10,13 @@ coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1003664980
   
   <p>Unduh</p>
   <hr>
+  <span>
   <ul>
     {% for post in site.categories['Aharen-san-wa-Hakarenai'] %}
-    <li><a class="post" href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
     {% endfor %}
-  </ul>  
+  </ul></span>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
