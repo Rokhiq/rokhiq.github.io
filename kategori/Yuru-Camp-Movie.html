@@ -19,5 +19,10 @@ coverPhoto: https://cdn.discordapp.com/attachments/970663117057032232/1042461075
       {% for post in site.categories['Yuru-Camp-Movie'] %}
     <li><a href="{{ site.baseurl }}{{ post.url }}">{% if post.epsname %}Episode {{ post.eps }}: {{ post.epsname }}{% else %}Episode {{ post.eps }}: {{ page.title }}{% endif %}</a></li>
     {% endfor %}
+    
+    {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+  
     </ul>
     </section>
