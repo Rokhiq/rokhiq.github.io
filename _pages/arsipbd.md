@@ -4,7 +4,6 @@ title: Arsip Bluray
 ---
 
 <section class="post">
-<h2>Arsip Bluray</h2>
   
   <ul>
     <li><a href="{{ site.baseurl }}/kategori/Engage-Kiss-bd" class="h4">Engage Kiss (BD)</a></li>

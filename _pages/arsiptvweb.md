@@ -4,7 +4,6 @@ title: Arsip TV/WEB
 ---
 
 <section class="post">
-<h2>Arsip TV/WEB</h2>
 
   <ul>
     <li><a href="{{ site.baseurl }}/kategori/Aharen-san-wa-Hakarenai" class="h4">Aharen-san wa Hakarenai</a></li>
